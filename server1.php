@@ -62,7 +62,7 @@ if(count($error) ==0){
         $_SESSION['x']=$user;            //el session momken 2st5dmha 2st5dam 25r  stor feha 7gat  (ft7t session w smtha x w vlaue bta3t x=user)
         $_SESSION['success']=" Welcome you are logged in";         //(ft7t session  smtha sucess  w vlaue bta3t x="Welcome you are logged in")
         //redirect user to homepage
-        header('location:index1.php');      //header 34an todyni fe page tanya{index1 mn 5lal el button}   = href in html   
+        header('location:index.php');      //header 34an todyni fe page tanya{index1 mn 5lal el button}   = href in html   
     }
 }
 }
